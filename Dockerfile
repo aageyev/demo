@@ -1,15 +1,11 @@
-# export version=''
+# export version='0.0.5'
 # export DOCKER_ID_USER="opstudio"
 # docker build -t opstudio/demo .
 #
-# docker build -t opstudio/demo:$version .
-# docker tag demo:$version demo:latest
-# docker tag cloudcc-app:1.0.19 $DOCKER_ID_USER/demo:$version
-# docker tag cloudcc-app:1.0.19 $DOCKER_ID_USER/demo:latest
-# docker run --rm -it opstudio/demo bash
-# docker run --rm -it -p 3000:3000 opstudio/demo bash
-# docker push $DOCKER_ID_USER/demo:$version
-# docker push $DOCKER_ID_USER/demo:latest
+# docker build -t opstudio/demo:0.0.5 .
+# docker tag opstudio/demo:0.0.5 demo:latest
+# docker push opstudio/demo:0.0.5
+# docker push demo:latest
 
 # docker run --rm -it opstudio/demo bash
 FROM ruby:2.5.1
