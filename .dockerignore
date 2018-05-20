@@ -1,0 +1,8 @@
+/logs/*
+/tmp/*
+/public/assets/*
+/.git/
+/.idea/
+/node_modules/
+/config/application.yml
+/local.env
